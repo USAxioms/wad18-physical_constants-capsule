@@ -1,0 +1,112 @@
+MIT License
+
+Copyright (c) 2026 WAD18 Physical Constants Reproducibility Framework
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL TERMS FOR SCIENTIFIC USE:
+
+1. ATTRIBUTION
+   When using constants from this package in published research, you must:
+   - Cite the WAD18 Physical Constants capsule (version 1.0.0, 2026)
+   - Reference CODATA 2023 as the authoritative source
+   - Include the date (2026-09-21) for reproducibility
+
+2. REPRODUCIBILITY
+   All derived work must include:
+   - The version number of the constants used
+   - The timestamp (2026-09-21)
+   - The platform/architecture (x86, ARM, etc.) if relevant
+   - Hash verification results if performing validation
+
+3. NO WARRANTY OF FUTURE ACCURACY
+   Physical constants are subject to refinement by CODATA every 4 years.
+   This package represents CODATA 2023. Future updates (CODATA 2026, 2030, etc.)
+   may supercede these values. Users are responsible for checking for updates.
+
+4. ACADEMIC INTEGRITY
+   The pre-declared acceptance criteria must not be modified. This framework
+   exists to prevent p-hacking and post-hoc rationalization. If you find that
+   constants do not meet acceptance criteria, you must report the discrepancy
+   rather than adjust the criteria.
+
+5. USAGE IN PUBLICATION
+   If you use this package in peer-reviewed research:
+   - Cite the specific version (1.0.0)
+   - Include the release date (2026-09-21)
+   - Mention the framework name: "WAD18 Physical Constants"
+   - Note that values are "exact by 2019 SI redefinition" where applicable
+
+Example citation for BibTeX:
+@software{wad18_constants_2026,
+  title={WAD18 Physical Constants Reproducibility Framework},
+  subtitle={CODATA 2023 in Deterministic Format},
+  version={1.0.0},
+  year={2026},
+  month={September},
+  day={21},
+  license={MIT},
+  note={Physical constants encoded in WAD18 fixed-point arithmetic}
+}
+
+---
+
+DATA SOURCES & ATTRIBUTION:
+
+CODATA 2023:
+  - Source: CODATA Task Group on Fundamental Constants
+  - Authority: NIST (National Institute of Standards and Technology)
+  - Publication: CODATA 2022 adjustment of fundamental constants
+  - Used by: Every physics calculation worldwide
+
+2019 SI Redefinition:
+  - Authority: International Bureau of Weights and Measures (BIPM)
+  - Exact definitions for: c, h, e, k_B, N_A
+  - Effective date: January 20, 2019
+
+Physical constants database:
+  - NIST Atomic Spectra Database
+  - NIST Physical Measurement Lab
+  - IUPAC Periodic Table (chemical properties)
+  - International Union of Pure and Applied Physics (IUPAP)
+
+---
+
+NO ENDORSEMENT:
+
+This software is not endorsed by NIST, CODATA, BIPM, IUPAC, or IUPAP.
+However, it is based entirely on their published values and recommendations.
+
+---
+
+OPEN SOURCE COMMITMENT:
+
+This framework is permanently open-source under the MIT License.
+Source code, test suite, and documentation are publicly available.
+Modifications and improvements are encouraged via pull requests.
+
+---
+
+For the full MIT License text, see:
+https://opensource.org/licenses/MIT
+
+License Text Date: 2026-09-21
+License Version: 1.0.0 (Aligned with WAD18 Constants v1.0.0)
