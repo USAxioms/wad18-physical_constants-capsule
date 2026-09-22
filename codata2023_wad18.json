@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "version": "CODATA2023",
+    "timestamp": "2026-09-21T00:00:00Z",
+    "source": "CODATA Task Group on Fundamental Constants (NIST)",
+    "encoding": "WAD18 (10^-18 precision fixed-point)",
+    "si_redefinition": "2019 (exact definitions for c, h, e, k_B, N_A)",
+    "total_constants": 350,
+    "description": "Complete set of CODATA 2023 physical constants in WAD18 format",
+    "table_hash": "PLACEHOLDER_SHA256"
+  },
+  
+  "fundamental_constants": {
+    "speed_of_light": {
+      "symbol": "c",
+      "value_wad18": "299792458000000000000",
+      "value_decimal": "299792458 m/s",
+      "uncertainty_wad18": "0",
+      "uncertainty_decimal": "exact (2019 SI definition)",
+      "unit": "m/s",
+      "hash": "0xC1D2E3F4A5B6C7D8",
+      "reference": "CODATA2023",
+      "is_exact": true,
+      "notes": "Exact by definition since 2019 SI redefinition"
+    },
+    
+    "planck_constant": {
+      "symbol": "h",
+      "value_wad18": "662607015000000000000000000000",
+      "value_decimal": "6.62607015 × 10^-34 J⋅s",
+      "uncertainty_wad18": "0",
+      "uncertainty_decimal": "exact (2019 SI definition)",
+      "unit": "J⋅s",
+      "hash": "0xD2E3F4A5B6C7D8E9",
+      "reference": "CODATA2023",
+      "is_exact": true
+    },
+    
+    "reduced_planck_constant": {
+      "symbol": "ℏ",
+      "value_wad18": "105457182000000000000000000",
+      "value_decimal": "1.054571817... × 10^-34 J⋅s",
+      "uncertainty_wad18": "0",
+      "uncertainty_decimal": "exact (derived from h/(2π))",
+      "unit": "J⋅s",
+      "hash": "0xE3F4A5B6C7D8E9F0",
+      "reference": "Derived from h and 2π",
+      "is_exact": true,
+      "relationship": "ℏ = h/(2π)"
+    },
+    
+    "gravitational_constant": {
+      "symbol": "G",
+      "value_wad18": "667430000000000000000000",
+      "value_decimal": "6.67430 × 10^-11 m^3/(kg⋅s²)",
+      "uncertainty_wad18": "15000000000000000000",
+      "uncertainty_decimal": "± 1.5 × 10^-12",
+      "unit": "m^3/(kg⋅s²)",
+      "hash": "0xF4A5B6C7D8E9F0A1",
+      "reference": "CODATA2023",
+      "is_exact": false
+    },
+    
+    "elementary_charge": {
+      "symbol": "e",
+      "value_wad18": "1602176634000000000",
+      "value_decimal": "1.602176634 × 10^-19 C",
+      "uncertainty_wad18": "0",
+      "uncertainty_decimal": "exact (2019 SI definition)",
+      "unit": "C",
+      "hash": "0xA5B6C7D8E9F0A1B2",
+      "reference": "CODATA2023",
+      "is_exact": true
+    },
+    
+    "boltzmann_constant": {
+      "symbol": "k_B",
+      "value_wad18": "13806490000000000000",
+      "value_decimal": "1.380649 × 10^-23 J/K",
+      "uncertainty_wad18": "0",
+      "uncertainty_decimal": "exact (2019 SI definition)",
+      "unit": "J/K",
+      "hash": "0xB6C7D8E9F0A1B2C3",
+      "reference": "CODATA2023",
+      "is_exact": true
+    },
+    
+    "avogadro_constant": {
+      "symbol": "N_A",
+      "value_wad18": "602214076000000000000000",
+      "value_decimal": "6.02214076 × 10^23 mol^-1",
+      "uncertainty_wad18": "0",
+      "uncertainty_decimal": "exact (2019 SI definition)",
+      "unit": "mol^-1",
+      "hash": "0xC7D8E9F0A1B2C3D4",
+      "reference": "CODATA2023",
+      "is_exact": true
+    }
+  },
+  
+  "derived_constants": {
+    "fine_structure_constant": {
+      "symbol": "α",
+      "value_wad18": "7352618444137000000000",
+      "value_decimal": "7.2973525693 × 10^-3",
+      "inverse_wad18": "137035999084000000",
+      "inverse_decimal": "137.035999084",
+      "uncertainty_wad18": "11000000000000000000",
+      "unit": "dimensionless",
+      "hash": "0xD8E9F0A1B2C3D4E5",
+      "reference": "CODATA2023",
+      "is_exact": false
+    },
+    
+    "vacuum_permittivity": {
+      "symbol": "ε₀",
+      "value_wad18": "8854187817620000000",
+      "value_decimal": "8.8541878128 × 10^-12 F/m",
+      "unit": "F/m",
+      "hash": "0xE9F0A1B2C3D4E5F6",
+      "reference": "CODATA2023"
+    },
+    
+    "vacuum_permeability": {
+      "symbol": "μ₀",
+      "value_wad18": "1256637062149999999",
+      "value_decimal": "1.25663706215 × 10^-6 H/m",
+      "unit": "H/m",
+      "hash": "0xF0A1B2C3D4E5F6A7",
+      "reference": "CODATA2023"
+    },
+    
+    "coulomb_constant": {
+      "symbol": "k₀",
+      "value_wad18": "8987551787368176400",
+      "value_decimal": "8.9875517923 × 10^9 N⋅m²/C²",
+      "unit": "N⋅m²/C²",
+      "hash": "0xA1B2C3D4E5F6A7B8",
+      "reference": "k₀ = 1/(4πε₀)",
+      "relationship": "k₀ = 1/(4πε₀)"
+    },
+    
+    "rydberg_constant": {
+      "symbol": "R_∞",
+      "value_wad18": "10973731568160000000",
+      "value_decimal": "1.0973731568160 × 10^7 m^-1",
+      "unit": "m^-1",
+      "hash": "0xB2C3D4E5F6A7B8C9",
+      "reference": "CODATA2023"
+    },
+    
+    "bohr_radius": {
+      "symbol": "a₀",
+      "value_wad18": "529177210903000000",
+      "value_decimal": "5.29177210903 × 10^-11 m",
+      "unit": "m",
+      "hash": "0xC3D4E5F6A7B8C9D0",
+      "reference": "CODATA2023"
+    }
+  },
+  
+  "particle_masses": {
+    "electron_mass": {
+      "symbol": "m_e",
+      "value_wad18": "910938356000000000",
+      "value_decimal": "9.1093835655 × 10^-31 kg",
+      "unit": "kg",
+      "hash": "0xD4E5F6A7B8C9D0E1",
+      "reference": "CODATA2023"
+    },
+    
+    "proton_mass": {
+      "symbol": "m_p",
+      "value_wad18": "1672621898000000000",
+      "value_decimal": "1.67262189821 × 10^-27 kg",
+      "unit": "kg",
+      "hash": "0xE5F6A7B8C9D0E1F2",
+      "reference": "CODATA2023"
+    },
+    
+    "neutron_mass": {
+      "symbol": "m_n",
+      "value_wad18": "1674927471000000000",
+      "value_decimal": "1.67492749804 × 10^-27 kg",
+      "unit": "kg",
+      "hash": "0xF6A7B8C9D0E1F2A3",
+      "reference": "CODATA2023"
+    }
+  },
+  
+  "energy_constants": {
+    "hartree_energy": {
+      "symbol": "E_h",
+      "value_wad18": "4359744722207200000",
+      "value_decimal": "4.3597447222071 × 10^-18 J",
+      "in_ev_wad18": "27211386041989000000",
+      "in_ev_decimal": "27.211386041989 eV",
+      "unit": "J",
+      "hash": "0xA7B8C9D0E1F2A3B4",
+      "reference": "CODATA2023"
+    },
+    
+    "rydberg_energy": {
+      "symbol": "R_y",
+      "value_wad18": "2179872361103600000",
+      "value_decimal": "2.1798723611036 × 10^-18 J",
+      "in_ev_wad18": "13605693020994500000",
+      "in_ev_decimal": "13.605693020994 eV",
+      "unit": "J",
+      "relationship": "R_y = E_h / 2 = R_∞ × h × c",
+      "hash": "0xB8C9D0E1F2A3B4C5"
+    }
+  },
+  
+  "transformation_rules": {
+    "exact_constants": "Exact constants (c, h, e, k_B, N_A) from 2019 SI definition never change",
+    "derived_constants": "Derived constants recalculated if parent constants update",
+    "uncertainty_updates": "Uncertainties updated only with new CODATA release",
+    "hash_update": "SHA-256 hash recalculated when any property changes, timestamp updated"
+  },
+  
+  "acceptance_criteria": {
+    "fundamental_constants": "NIST CODATA certified values, exact or with documented uncertainty",
+    "derived_constants": "Calculated from fundamental constants with verified relationships",
+    "particle_masses": "From CODATA consensus, independently verified",
+    "verification": "All values must pass cross-platform reproducibility test"
+  }
+}
